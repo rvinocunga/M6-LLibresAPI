@@ -10,7 +10,7 @@ public class Libro implements Serializable {
     private String autor;
     private Double precio;
     private CategoriaLibro categoria;
-    private int añoPublicacion;
+    private int anyoPublicacion;
     private String isbn;
 
     public Libro() {
@@ -56,12 +56,12 @@ public class Libro implements Serializable {
         this.categoria = categoria;
     }
 
-    public int getAñoPublicacion() {
-        return añoPublicacion;
+    public int getAnyoPublicacion() {
+        return anyoPublicacion;
     }
 
-    public void setAñoPublicacion(int añoPublicacion) {
-        this.añoPublicacion = añoPublicacion;
+    public void setAnyoPublicacion(int anyoPublicacion) {
+        this.anyoPublicacion = anyoPublicacion;
     }
 
     public String getIsbn() {
@@ -80,7 +80,7 @@ public class Libro implements Serializable {
                 ", autor='" + autor + '\'' +
                 ", precio=" + precio +
                 ", categoria=" + categoria +
-                ", añoPublicacion=" + añoPublicacion +
+                ", anyoPublicacion=" + anyoPublicacion +
                 ", isbn='" + isbn + '\'' +
                 '}';
     }

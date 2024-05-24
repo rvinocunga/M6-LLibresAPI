@@ -51,7 +51,7 @@ public class LibroServicesImpl implements LibroServices {
         libro1.setAutor("Miguel de Cervantes");
         libro1.setPrecio(33.0);
         libro1.setCategoria(CategoriaLibro.NOVELA);
-        libro1.setAñoPublicacion(1605);
+        libro1.setAnyoPublicacion(1605);
         libro1.setIsbn("9780142437230");
 
         Libro libro2 = new Libro();
@@ -60,7 +60,7 @@ public class LibroServicesImpl implements LibroServices {
         libro2.setAutor("George Orwell");
         libro2.setPrecio(20.0);
         libro2.setCategoria(CategoriaLibro.CIENCIA_FICCION);
-        libro2.setAñoPublicacion(1949);
+        libro2.setAnyoPublicacion(1949);
         libro2.setIsbn("9780451524935");
 
         Libro libro3 = new Libro();
@@ -69,7 +69,7 @@ public class LibroServicesImpl implements LibroServices {
         libro3.setAutor("Gabriel García Márquez");
         libro3.setPrecio(30.0);
         libro3.setCategoria(CategoriaLibro.NOVELA);
-        libro3.setAñoPublicacion(1967);
+        libro3.setAnyoPublicacion(1967);;
         libro3.setIsbn("9780804171462");
 
         LIBROS.put(libro1.getId(), libro1);
